@@ -90,6 +90,8 @@ public class FrmDiskon extends javax.swing.JFrame {
             }
         });
 
+        txtHasil.setEditable(false);
+
         btnHitung.setText("Hitung");
         btnHitung.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
